@@ -1,0 +1,41 @@
+.contact {
+  width: 65% !important;
+  margin: 0 auto;
+  .row {
+    .contact-inner {
+      padding: 10px;
+    }
+    .col-lg-12 {
+      .contact-form {
+        display: inline-block;
+        width: 80% !important;
+        margin: 0 auto!important;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 5px;
+        padding: 20px;
+        input[type="checkbox"] {
+          transform: scale(1.6);
+        }
+        .form-check {
+          .form-check-label {
+            .text-design {
+              color: rgb(74, 74, 255);
+              text-decoration: 1px underline rgb(74, 74, 255);
+            }
+          }
+        }
+        .sub-btn {
+          button {
+            width: 100% !important;
+            height: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: #4a90e2;
+            border: none;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+*::selection {
+  background-color: black;
+  color: white;
+}
+//Fonts
+.akaya {
+  font-family: "Akaya Telivigala", cursive;
+}
+.dosis-bold {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+}
+.dosis-regular {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+}
+.dosis-light {
+  font-family: "Dosis", sans-serif;
+  font-weight: 200;
+}
+
+//Headings
+.heading-xlarge {
+  font-size: 5rem;
+}
+.heading-large {
+  font-size: 3rem;
+}
+.heading-medium {
+  font-size: 1.75rem;
+}
+.heading-small {
+  font-size: 1.5rem;
+}
+.heading-xsmall {
+    font-size: 1rem;
+  }
+//Styling Elements
+.font-size-15 {
+  font-size: 15px;
+}
+.opacity {
+  opacity: 0.7;
+}
+.btn-none {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+}
+.fa-angle-down {
+  font-size: 9px;
+}
+

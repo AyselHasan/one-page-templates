@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopy</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/scss/main/main.css" />
+    <!-- Tablet CSS -->
+    <link
+      rel="stylesheet"
+      media="(max-width: 769px)"
+      href="./assets/scss/tablet/tablet.css"
+    />
+    <!-- Mobile CSS -->
+    <link
+      rel="stylesheet"
+      media="(max-width: 500px)"
+      href="./assets/scss/mobile/mobile.css"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <section id="navbar" class="flex align-items-center">
+          <div class="container flex space-between">
+            <div id="nav-menu">
+              <ul class="list-unstyled flex">
+                <li class="">
+                  <a class="a-unstyled bold letter-spacing" href="">HOME</a>
+                </li>
+                <li class="">
+                  <a class="a-unstyled bold letter-spacing" href="">TEMPLATE</a>
+                </li>
+                <li class="">
+                  <a class="a-unstyled bold letter-spacing" href="">DOCS</a>
+                </li>
+                <li class="">
+                  <a class="a-unstyled bold letter-spacing red" href="">SALE</a>
+                </li>
+              </ul>
+            </div>
+            <div class="text-center logo">
+              <h1 class="bold heading-large">SHOPY</h1>
+            </div>
+            <div id="#navicons" class="nav-icons">
+              <ul class="list-unstyled flex">
+                <li class="">
+                  <a class="a-unstyled bold letter-spacing" href="">
+                    <i
+                      class="fa-solid fa-magnifying-glass opacity icon-padding"
+                    ></i>
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    id="nav-icon"
+                    class="a-unstyled bold letter-spacing"
+                    href=""
+                  >
+                    <i class="fa-solid fa-globe opacity icon-padding"></i>
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    id="nav-icon"
+                    class="a-unstyled bold letter-spacing"
+                    href=""
+                  >
+                    <i class="fa-solid fa-user opacity icon-padding"></i>
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    id="nav-icon"
+                    class="a-unstyled bold letter-spacing"
+                    href=""
+                  >
+                    <i class="fa-solid fa-heart opacity icon-padding"></i>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="a-unstyled bold letter-spacing" href="">
+                    <i
+                      class="fa-solid fa-bag-shopping opacity icon-padding"
+                    ></i>
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    id="menu-icon"
+                    class="a-unstyled bold letter-spacing none"
+                    href=""
+                  >
+                    <i class="fa-solid fa-bars opacity icon-padding"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <!-- Entry Section -->
+      <section id="entry" class="entry flex">
+        <div class="first-container">
+          <div class="section-nav-box">
+            <ul class="list-unstyled flex space-between p-2">
+              <li>
+                <h1 class="heading-large bold white">Cotton Cardigans</h1>
+              </li>
+              <li>
+                <button class="text-white" id="shopnow">
+                  <h2 class="light heading-medium">SHOP NOW</h2>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="second-container">
+          <div class="section-nav-box">
+            <ul class="list-unstyled flex space-between p-2">
+              <li>
+                <h1 class="heading-large white bold">Fancy Jewelery</h1>
+              </li>
+              <li>
+                <button class="text-white" id="shopnow">
+                  <h2 class="light heading-medium">SHOP NOW</h2>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Cards -->
+      <section id="products">
+        <div class="container">
+          <h5 class="regular heading-small">SHOP THE LOOK</h5>
+          <h1 class="heading-large bold">Trending Looks</h1>
+          <div class="pt-2 product-cards flex space-between">
+            <div
+              class="card"
+              onmouseover="changePic()"
+              onmouseout="changePic2()"
+            >
+              <div class="product-image">
+                <img
+                  id="first-img-top"
+                  class="img"
+                  src="./assets/img/5.jpg"
+                  alt=""
+                />
+                <div class="product-content">
+                  <ul class="list-unstyled flex space-between p-0 m-0">
+                    <li>
+                      <h4 class="bold heading-medium p-0 m-0">Look name</h4>
+                      <h5 class="heading-small regular">3 items</h5>
+                    </li>
+                    <li class="margin-li">
+                      <h4 class="heading-medium bold">$120.00</h4>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-cont none">
+                  <ul class="list-unstyled flex space-between p-0 m-0">
+                    <li>
+                      <h4 class="bold heading-medium p-0 m-0">Look name</h4>
+                      <h5 class="heading-small regular">3 items</h5>
+                    </li>
+                    <li class="margin-li">
+                      <h4 class="heading-medium bold">$120.00</h4>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              onmouseover="changePic3()"
+              onmouseout="changePic4()"
+            >
+              <div class="product-image">
+                <img
+                  id="second-img-top"
+                  class="img"
+                  src="./assets/img/6.jpg"
+                  alt=""
+                />
+                <div class="product-content">
+                  <ul class="list-unstyled flex space-between p-0 m-0">
+                    <li>
+                      <h4 class="bold heading-medium p-0 m-0">Look name</h4>
+                      <h5 class="heading-small regular">3 items</h5>
+                    </li>
+                    <li class="margin-li">
+                      <h4 class="heading-medium bold">$120.00</h4>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-cont none">
+                  <ul class="list-unstyled flex space-between p-0 m-0">
+                    <li>
+                      <h4 class="bold heading-medium p-0 m-0">Look name</h4>
+                      <h5 class="heading-small regular">3 items</h5>
+                    </li>
+                    <li class="margin-li">
+                      <h4 class="heading-medium bold">$120.00</h4>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              onmouseover="changePic5()"
+              onmouseout="changePic6()"
+            >
+              <div class="product-image">
+                <img
+                  id="third-img-top"
+                  class="img"
+                  src="./assets/img/7.jpg"
+                  alt=""
+                />
+                <div class="product-content">
+                  <ul class="list-unstyled flex space-between p-0 m-0">
+                    <li>
+                      <h4 class="bold heading-medium p-0 m-0">Look name</h4>
+                      <h5 class="heading-small regular">3 items</h5>
+                    </li>
+                    <li class="margin-li">
+                      <h4 class="heading-medium bold">$120.00</h4>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-cont none">
+                  <ul class="list-unstyled flex space-between p-0 m-0">
+                    <li>
+                      <h4 class="bold heading-medium p-0 m-0">Look name</h4>
+                      <h5 class="heading-small regular">3 items</h5>
+                    </li>
+                    <li class="margin-li">
+                      <h4 class="heading-medium bold">$120.00</h4>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/modal.js"></script>
+  <script src="./assets/js/menu.js"></script>
+</html>

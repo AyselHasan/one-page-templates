@@ -1,0 +1,19 @@
+.slider-cards {
+  height: 60vh;
+  width: 65%;
+  margin: 0 auto;
+  .slider-card {
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    .slider-pic {
+      img {
+        width: 100% !important;
+      }
+    }
+    .slider-btn {
+      button {
+        color: #4a90e2;
+      }
+    }
+  }
+}

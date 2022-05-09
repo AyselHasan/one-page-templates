@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stack</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Reset CSS-->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="./assets/slick/slick/slick.css" />
+    <link rel="stylesheet" href="./assets/slick/slick/slick-theme.css" />
+  </head>
+  <body>
+    <!-- Header, Navbar, First Section -->
+    <header>
+      <div id="overlay">
+        <div class="overlay-content justify-content-center"></div>
+      </div>
+      <section
+        id="heading"
+        class="header-sec"
+        style="background-image: url(./assets/img/bg-1.jpg)"
+      >
+        <nav id="navbar" class="mx-auto">
+          <div class="resp-nav d-none">
+            <div id="resp-logo" class="nav-logo d-flex d-none">
+              <img src="./assets/img/logo-white.png" alt="" />
+            </div>
+            <div class="resp-icon">
+              <i class="fa-solid fa-bars-filter text-white"></i>
+            </div>
+          </div>
+          <div class="heading-nav">
+            <div
+              class="main-nav-content d-flex justify-content-between align-items-center mx-auto"
+            >
+              <div class="nav-menu mt-4 text-white">
+                <ul class="list-unstyled d-flex dosis-regular font-size-15">
+                  <li class="d-flex">
+                    Home <i class="fa-solid fa-angle-down mt-2 ml-1"></i>
+                  </li>
+                  <li class="ml-3 d-flex">
+                    Pages <i class="fa-solid fa-angle-down mt-2 ml-1"></i>
+                  </li>
+                  <li class="ml-3 d-flex">
+                    Blocks <i class="fa-solid fa-angle-down mt-2 ml-1"></i>
+                  </li>
+                  <li class="ml-3 d-flex">
+                    Elements <i class="fa-solid fa-angle-down mt-2 ml-1"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="nav-logo d-flex justify-content-center">
+                <img src="./assets/img/logo-white.png" alt="" />
+              </div>
+              <div class="nav-btns d-flex">
+                <button class="btn-none try-btn dosis-bold text-white">
+                  TRY BUILDER
+                </button>
+                <button class="btn-none buy-btn dosis-bold text-white">
+                  BUY NOW
+                </button>
+              </div>
+            </div>
+
+            <div id="heading-content" class="centered">
+              <h1 class="heading-xlarge akaya text-center text-white">
+                Built to prosper
+              </h1>
+              <h3
+                class="dosis-regular heading-small text-white text-center dosis-regular"
+              >
+                Empowering children through creative programs
+              </h3>
+              <div class="d-flex justify-content-center">
+                <button id="donate-btn" class="btn-none text-white dosis-bold">
+                  Donate Today
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Service Cards -->
+      <section id="service-cards" class="service-cards">
+        <div class="d-flex align-items-center">
+          <div class="section-container text-center dosis-regular opacity">
+            <h3 class="heading-large">An exercise in collaboration</h3>
+            <h4 class="heading-small">
+              Our vision is for strong and resilient communities where all
+              persons have adequate housing and health care, and where everyone
+              is supported to live with a sense of self-worth and
+              self-determination.
+            </h4>
+          </div>
+        </div>
+
+        <div class="cards-container d-flex align-items-center">
+          <div class="row">
+            <div class="service-card col-lg-4 col-md-12 col-sm-12">
+              <div class="service-pic d-flex justify-content-center">
+                <img src="./assets/img/icon1.jpg" alt="" />
+              </div>
+              <div class="service-name text-center">
+                <h4 class="dosis-regular heading-medium p-2">Empower Youth</h4>
+              </div>
+              <div class="service-content opacity dosis-regular text-center">
+                Stack comes with integration for Mail Chimp and Campaign Monitor
+                forms - ideal for launching modern marketing campaigns
+              </div>
+            </div>
+
+            <div class="service-card col-lg-4 col-md-12 col-sm-12">
+              <div class="service-pic d-flex justify-content-center">
+                <img src="./assets/img/icon2.jpg" alt="" />
+              </div>
+              <div class="service-name text-center">
+                <h4 class="dosis-regular heading-medium p-2">Provide Aid</h4>
+              </div>
+              <div class="service-content opacity dosis-regular text-center">
+                Stack comes with integration for Mail Chimp and Campaign Monitor
+                forms - ideal for launching modern marketing campaigns
+              </div>
+            </div>
+
+            <div class="service-card col-lg-4 col-md-12 col-sm-12">
+              <div class="service-pic d-flex justify-content-center">
+                <img src="./assets/img/icon3.jpg" alt="" />
+              </div>
+              <div class="service-name text-center">
+                <h4 class="dosis-regular heading-medium p-2">
+                  Strengthen Community
+                </h4>
+              </div>
+              <div class="service-content opacity dosis-regular text-center">
+                Stack comes with integration for Mail Chimp and Campaign Monitor
+                forms - ideal for launching modern marketing campaigns
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slider -->
+      <div class="empty-box"></div>
+      <section id="slider-cards" class="slider-cards p-1">
+        <h1 class="dosis-regular heading-large">Current Campaigns</h1>
+        <div
+          id="sliderNav"
+          class="slider slider-nav slider-cards-container row"
+        >
+          <div class="col-lg-4 col-md-6">
+            <div class="slider-card">
+              <div class="slider-pic">
+                <img src="./assets/img/card1.jpg" alt="" />
+              </div>
+              <div class="slider-inner p-2">
+                <div class="slider-heading">
+                  <p class="dosis-bold">Build to prosper</p>
+                </div>
+                <div class="slider-content dosis-regular">
+                  <p>Providing stable dwellings for families in Tanzania</p>
+                </div>
+                <div class="slider-btn">
+                  <button class="btn-none dosis-bold">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="slider-card">
+              <div class="slider-pic">
+                <img src="./assets/img/card2.jpg" alt="" />
+              </div>
+              <div class="slider-inner p-2">
+                <div class="slider-heading">
+                  <p class="dosis-bold">Build to prosper</p>
+                </div>
+                <div class="slider-content dosis-regular">
+                  <p>Providing stable dwellings for families in Tanzania</p>
+                </div>
+                <div class="slider-btn">
+                  <button class="btn-none dosis-bold">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="slider-card">
+              <div class="slider-pic">
+                <img src="./assets/img/card3.jpg" alt="" />
+              </div>
+              <div class="slider-inner p-2">
+                <div class="slider-heading">
+                  <p class="dosis-bold">Build to prosper</p>
+                </div>
+                <div class="slider-content dosis-regular">
+                  <p>Providing stable dwellings for families in Tanzania</p>
+                </div>
+                <div class="slider-btn">
+                  <button class="btn-none dosis-bold">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="slider-card">
+              <div class="slider-pic">
+                <img src="./assets/img/card1.jpg" alt="" />
+              </div>
+              <div class="slider-inner p-2">
+                <div class="slider-heading">
+                  <p class="dosis-bold">Build to prosper</p>
+                </div>
+                <div class="slider-content dosis-regular">
+                  <p>Providing stable dwellings for families in Tanzania</p>
+                </div>
+                <div class="slider-btn">
+                  <button class="btn-none dosis-bold">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="slider-card">
+              <div class="slider-pic">
+                <img src="./assets/img/card2.jpg" alt="" />
+              </div>
+              <div class="slider-inner p-2">
+                <div class="slider-heading">
+                  <p class="dosis-bold">Build to prosper</p>
+                </div>
+                <div class="slider-content dosis-regular">
+                  <p>Providing stable dwellings for families in Tanzania</p>
+                </div>
+                <div class="slider-btn">
+                  <button class="btn-none dosis-bold">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="slider-card">
+              <div class="slider-pic">
+                <img src="./assets/img/card3.jpg" alt="" />
+              </div>
+              <div class="slider-inner p-2">
+                <div class="slider-heading">
+                  <p class="dosis-bold">Build to prosper</p>
+                </div>
+                <div class="slider-content dosis-regular">
+                  <p>Providing stable dwellings for families in Tanzania</p>
+                </div>
+                <div class="slider-btn">
+                  <button class="btn-none dosis-bold">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact">
+        <div class="row">
+          <div class="col-lg-12 col-xl-6 col-md-12 col-sm-12 contact-inner">
+            <h2 class="heading-large dosis regular">
+              Stay informed about new and upcoming campaigns
+            </h2>
+            <p class="opacity heading-medium dosis-regular">
+              Our customers love the comfort that comes with six-months of
+              included support. Our dedicated support forum makes support
+              hassle-free.
+            </p>
+          </div>
+          <div class="col-lg-12 col-xl-6 col-md-12 col-sm-12 contact-sec">
+            <div class="contact-form">
+              <input
+                class="form-control form-control-lg"
+                type="text"
+                placeholder="Your Name"
+                aria-label=".form-control-lg example"
+              />
+              <input
+                class="form-control form-control-lg mt-3"
+                type="text"
+                placeholder="Email Address"
+                aria-label=".form-control-lg example"
+              />
+              <div class="form-check mt-3">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label
+                  class="form-check-label dosis-light"
+                  for="flexCheckDefault"
+                >
+                  I have read and agree to the
+                  <a href="" class="text-design">terms and conditions</a>
+                </label>
+              </div>
+              <div class="sub-btn">
+                <button class="dosis-bold text-white">
+                  SUBSCRIBE TO NEWSLETTER
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner -->
+      <section
+        id="banner"
+        class="banner"
+        style="background-image: url(./assets/img/bg-2.jpg)"
+      >
+      <div id="banner-overlay">
+        <div class="overlay-inner justify-content-center">
+          <h1 class="heading-large dosis-regular text-white">
+            Change lives, empower people and build meaningful connections as a
+            volunteer
+          </h1>
+          <p class="text-white dosis regular">
+            On average, applicants are 40% more likely to find ongoing work in
+            the creative industry using our jobs board.
+          </p>
+          <button class="dosis-bold">
+            REGISTER INTEREST
+          </button>
+        </div>
+      </div>
+    </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-nav d-flex justify-content-center">
+        <ul class="list-unstyled dosis-regular d-flex ">
+          <li class="p-4 opacity"><a href="">Our Company</a></li>
+          <li class="p-4 opacity"><a href="">Locations</a></li>
+          <li class="p-4 opacity"><a href="">Products</a></li>
+          <li class="p-4 opacity"><a href="">Work With Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-icons d-flex justify-content-center">
+        <ul class="list-unstyled d-flex">
+          <li class="p-2 opacity"><a href=""><i class="fa-brands fa-google"></i></a></i></li>
+          <li class="p-2 opacity"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="p-2 opacity"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li class="p-2 opacity"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div class="made-in opacity d-flex justify-content-center dosis-regular ">
+        <div>
+          Made in Melbourne <img src="./assets/img/footer-logo.png" alt="">
+        </div>
+      </div>
+      <div class="footer-end d-flex justify-content-center">
+        <ul class="d-flex list-unstyled dosis-regular ">
+          <li class="p-3 opacity"><a href="">© 2022 Stack Inc.</a></li>
+          <li class="p-3 opacity"><a href="">Privacy Policy </a></li>
+          <li class="p-3 opacity"><a href="">Legal</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="./assets/js/main.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="./assets/slick/slick/slick.min.js"></script>
+  <script src="./assets/js/slider.js"></script>
+</html>

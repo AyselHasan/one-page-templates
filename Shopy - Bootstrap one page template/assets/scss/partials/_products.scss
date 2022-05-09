@@ -1,0 +1,33 @@
+#products {
+  .container {
+    padding-top: 3rem;
+    .product-cards {
+      width: 100%;
+      height: 60vh;
+      .card {
+        width: 32% !important;
+        .product-image {
+          padding: 1rem 0 2rem 0;
+          position: relative;
+          .img {
+            max-width: 90% !important;
+            max-height: 80% !important;
+          }
+          .product-content {
+            position: absolute;
+            bottom: 9%;
+            left: 3%;
+            width: 80%;
+            padding: 1rem 0.5rem 1rem;
+            background-color: white;
+            ul {
+              .margin-li {
+                margin-top: 2%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

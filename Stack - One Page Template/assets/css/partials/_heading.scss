@@ -1,0 +1,69 @@
+.header-sec {
+  width: 100% !important;
+  height: 75vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  #navbar {
+    .heading-nav {
+      z-index: 9999 !important;
+      .main-nav-content {
+        width: 70%;
+        height: 15%;
+        .nav-menu {
+          z-index: 9999 !important;
+        }
+        .nav-logo {
+          img {
+            width: 20%;
+            z-index: 9999 !important;
+          }
+        }
+        .nav-btns {
+          font-size: 0.8rem;
+          z-index: 9999 !important;
+          .try-btn {
+            border: 1px solid white;
+            border-radius: 10px;
+            margin-right: 5px;
+            width: 90px;
+          }
+          .buy-btn {
+            background-color: #4a90e2;
+            border-radius: 5px;
+            width: 90px;
+          }
+        }
+      }
+      .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 75vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  .overlay-content {
+    margin-top: 15%;
+  }
+}
+#heading-content {
+  z-index: 9999 !important;
+}
+#donate-btn {
+  background-color: #4a90e2;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 150px;
+}

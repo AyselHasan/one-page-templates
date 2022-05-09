@@ -1,0 +1,18 @@
+.service-cards {
+  height: 70vh;
+  .section-container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  .cards-container {
+    padding: 20px;
+    width: 65%;
+    margin: 0 auto;
+    .row {
+      .service-card {
+        padding: 35px;
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+.pointer {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+.list-unstyled {
+  list-style-type: none;
+}
+/* Fonts */
+.bold {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+.regular {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+}
+.light {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 100;
+}
+.opacity {
+  opacity: 0.5;
+}
+.opacity-2 {
+  opacity: 0.8;
+}
+/* Text */
+.text-center {
+  text-align: center;
+}
+.heading-small {
+  font-size: 1.5rem;
+}
+.heading-medium {
+  font-size: 2rem;
+}
+.heading-large {
+  font-size: 3rem;
+}
+.heading-xlarge {
+  font-size: 5rem;
+}
+.white {
+  color: #ffffff;
+}
+.black {
+  color: #000000;
+}
+.letter-spacing {
+  letter-spacing: 1px;
+}
+/* Flex */
+.flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+}
+.btn-nav {
+  background-color: transparent;
+}
+.main-btn {
+  padding: 0.75rem;
+  background-color: black;
+  border: none;
+}
+.a-unsltyed {
+  text-decoration: none;
+  color: #000000;
+}
+.a-unsltyed:hover {
+  color: #000000;
+}
+/* Spacing */
+.mtop-5 {
+  margin-top: 5px;
+}
+
+.btn-hover:hover {
+    border: 1px solid #000000 !important;
+    background-color: white !important;
+    color: #000000 !important;
+    transition: 1.5s;
+}

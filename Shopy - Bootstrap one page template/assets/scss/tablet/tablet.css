@@ -1,0 +1,39 @@
+@import c:\Users\User\Desktop\Shopy - Bootstrap one page template\assets\scss\partials\_reset.scss (max-width: 790px);
+@import c:\Users\User\Desktop\Shopy - Bootstrap one page template\assets\scss\partials\_global.scss (max-width: 790px);
+#entry {
+  width: 100%;
+  display: block;
+}
+
+#entry .first-container {
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+#entry .first-container .section-nav-box {
+  height: 15vh;
+  width: 100%;
+}
+
+#entry .second-container {
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+#entry .second-container .section-nav-box {
+  height: 15vh;
+  width: 100%;
+}
+/*# sourceMappingURL=tablet.css.map */
